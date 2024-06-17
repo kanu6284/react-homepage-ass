@@ -1,0 +1,28 @@
+.footer {
+    width: 100%;
+    position: fixed; 
+    bottom: 0;
+    left: 0; 
+    right: 0; 
+    padding: 10px 0; 
+    background-color: #000;
+    color: #fff;
+    z-index: 1000;
+}
+
+.footer-container {
+    width: 100%;
+    max-width: 1200px; 
+    margin: 0 auto; 
+    padding: 0 20px; 
+}
+
+.icon-group {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+}
+
+.icon-group svg {
+    margin: 0 15px; 
+}
